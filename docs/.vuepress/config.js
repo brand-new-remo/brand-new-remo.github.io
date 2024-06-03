@@ -6,7 +6,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "Remo的博客",
-  description: "Remo的博客,前端,技术,交流,node,构建,部署,上线,文档,学习,算法",
+  description: "Remo的博客,前端,技术,node,构建,部署,文档,算法",
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
     navbar: [
