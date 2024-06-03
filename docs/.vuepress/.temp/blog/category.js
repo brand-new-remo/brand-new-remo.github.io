@@ -1,0 +1,2 @@
+export const categoriesMap = {"category":{"/":{"path":"/category/","map":{"History":{"path":"/category/history/","indexes":[0,1]},"CategoryA":{"path":"/category/categorya/","indexes":[2,3]},"CategoryC":{"path":"/category/categoryc/","indexes":[4,5]}}}},"tag":{"/":{"path":"/tag/","map":{"WWI":{"path":"/tag/wwi/","indexes":[1]},"WWII":{"path":"/tag/wwii/","indexes":[0]},"tag A":{"path":"/tag/tag-a/","indexes":[2,3]},"tag B":{"path":"/tag/tag-b/","indexes":[2,3]},"tag E":{"path":"/tag/tag-e/","indexes":[4,5]}}}}};
+
