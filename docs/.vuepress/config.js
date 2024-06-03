@@ -8,7 +8,7 @@ export default defineUserConfig({
   title: "Remo的博客",
   description: "Remo的博客,前端,技术,node,构建,部署,文档,算法",
   theme: defaultTheme({
-    logo: "https://vuejs.press/images/hero.png",
+    // logo: "https://vuejs.press/images/hero.png",
     navbar: [
       {
         text: "文章",
@@ -28,7 +28,19 @@ export default defineUserConfig({
       },
     ],
   }),
-
+  sidebar: {
+    '/': [
+      '',          // 对应 README.md
+      {
+        title: '文章',
+        collapsable: false, // 可选，默认为 true
+        children: [
+          'posts/article/network/CDN',
+          'posts/article/network/OSI模型',
+        ]
+      }
+    ]
+  },
   plugins: [
     blogPlugin({
       // Only files under posts are articles
