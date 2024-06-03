@@ -6,13 +6,17 @@ import { viteBundler } from "@vuepress/bundler-vite";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "Remo的博客",
-  description: "Remo的博客,前端,技术,node,构建,部署,文档,算法",
+  description: "前端|技术|node|构建|部署|文档|算法|想法",
   theme: defaultTheme({
     // logo: "https://vuejs.press/images/hero.png",
     navbar: [
       {
         text: "文章",
         link: "/article/",
+      },
+      {
+        text: "vue",
+        link: "/vue/",
       },
       {
         text: "分类",
@@ -28,18 +32,24 @@ export default defineUserConfig({
       },
     ],
   }),
+  // sidebar: {
+  //   '/article': [
+  //     '',          // 对应 README.md
+  //     {
+  //       title: '文章',
+  //       collapsable: false, // 可选，默认为 true
+  //       children: [
+  //         'posts/article/network/CDN',
+  //         'posts/article/network/OSI模型',
+  //       ]
+  //     }
+  //   ]
+  // },
   sidebar: {
-    '/': [
-      '',          // 对应 README.md
-      {
-        title: '文章',
-        collapsable: false, // 可选，默认为 true
-        children: [
-          'posts/article/network/CDN',
-          'posts/article/network/OSI模型',
-        ]
-      }
-    ]
+    '/article/': [
+      'network/CDN',   // 这将会链接到 post1.md 文件
+      'network/OSI模型',   // 这将会链接到 post2.md 文件
+    ],
   },
   plugins: [
     blogPlugin({

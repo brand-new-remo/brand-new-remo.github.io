@@ -1,16 +1,13 @@
-.DS_Store
-node_modules/
-/dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/docs/.vuepress/.cache/
-/docs/.vuepress/.temp/
+# VuePress files
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log

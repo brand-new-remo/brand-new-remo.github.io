@@ -1,4 +1,6 @@
-/build/
-/config/
-/dist/
-/*.js
+!.vuepress/
+!.*.js
+.cache/
+.temp/
+node_modules/
+dist/
