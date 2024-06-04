@@ -5,9 +5,10 @@ category:
 tag:
   - Vue
   - Diff
+description: 介绍Vue3在进行diff的阶段做了哪些优化来提升框架的效率。
 ---
 
-# **Vue3在diff阶段都优化了哪些**
+# **Vue3在diff阶段优化**
 
 ## 静态提升
 

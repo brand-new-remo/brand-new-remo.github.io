@@ -12,7 +12,7 @@ defineProps({
 
 <template>
   <div class="article-wrapper">
-    <div v-if="!items.length">Nothing in here.</div>
+    <div v-if="!items.length">暂无内容</div>
 
     <article
       v-for="{ info, path } in items"
@@ -41,6 +41,10 @@ defineProps({
         >
 
         <span v-if="info.tag" class="tag">Tag: {{ info.tag.join(', ') }}</span>
+      </div>
+
+      <div v-if="info.description" class="description">
+        {{ info.description }}
       </div>
     </article>
   </div>
@@ -124,18 +128,9 @@ defineProps({
     }
   }
 
-  .excerpt {
-    h1 {
-      display: none;
-    }
-
-    h2 {
-      font-size: 1.2em;
-    }
-
-    h3 {
-      font-size: 1.15em;
-    }
+  .description {
+    margin-top: 16px;
+    font-size: 14px;
   }
 }
 </style>

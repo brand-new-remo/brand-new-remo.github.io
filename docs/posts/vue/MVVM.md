@@ -5,6 +5,7 @@ category:
 tag:
   - Vue
   - MVVM
+description: 介绍MVVM的设计思想与其优点。
 ---
 
 # MVVM

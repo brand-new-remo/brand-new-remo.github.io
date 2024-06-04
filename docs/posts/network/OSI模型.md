@@ -5,6 +5,7 @@ category:
 tag:
   - OSI模型
   - 网络协议
+description: 介绍OSI的七层和五层模型的详细信息。
 ---
 
 # OSI模型

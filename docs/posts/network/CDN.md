@@ -4,6 +4,7 @@ category:
   - 网络
 tag:
   - CDN
+description: 介绍CDN加速的原理以及有缓存和无缓存的情况下HTTP请求的流程。
 ---
 
 # CDN加速

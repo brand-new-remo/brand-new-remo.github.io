@@ -1,6 +1,6 @@
 ---
 title: XSS
-description: XSS（Cross-Site Scripting）攻击主要有三种类型：反射型 XSS、存储型 XSS 和 DOM 型 XSS。
+description: 介绍XSS攻击主要有三种类型，以及如何预防XSS攻击。
 date: 2024-06-03
 category:
   - 安全
