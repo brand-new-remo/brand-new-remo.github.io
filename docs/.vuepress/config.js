@@ -6,16 +6,13 @@ export default {
   lang: 'zh-CN',
   title: 'Remo的博客',
   description: '前端|技术|node|构建|部署|文档|算法|想法',
+  head: [['link', { rel: 'icon', href: '/images/favicon.png' }]],
   theme: defaultTheme({
-    // logo: "https://vuejs.press/images/hero.png",
+    logo: '/images/favicon.png',
     navbar: [
       {
         text: '文章',
         link: '/article/',
-      },
-      {
-        text: 'vue',
-        link: '/vue/',
       },
       {
         text: '分类',
